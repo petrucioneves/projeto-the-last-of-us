@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Of Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <div class="carousel">
+            <img id="img1" class="img active" src="./src/img/tlou-1.jpg" alt="Ellie e Joe abraçados">
+            <img id="img2" class="img" src="./src/img/tlou-2.jpg" alt="Personagens do The Last of Us ">
+            <img id="img3" class="img" src="./src/img/tlou-3.jpg" alt="Joe olhando pela janela">
+            <img id="img4" class="img" src="./src/img/tlou-4.jpg" alt="Ellie e Tess se olhando">
+            <img id="img5" class="img" src="./src/img/tlou-5.jpg" alt="Ellie e Joe caminhando em uma cidade destruída">
+            <img id="img6" class="img" src="./src/img/tlou-6.jpg" alt="Joe segurando uma lanterna na mão direita">
+        </div>
+        <div class="content">
+            <div class="information">
+                <img class="logo" src="./src/img/logo.png" alt="logo The Last of Us">
+                <p class="description" style="font-family: 'Poppins', sans-serif;">
+                    The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de 
+                    mesmo nome criada por Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção.
+                </p>
+            </div>
+            <div class="carousel-buttons">
+                <button id="button1" class="button select" onclick="carousel('button1', 'img1')"></button>
+                <button id="button2" class="button" onclick="carousel('button2', 'img2')"></button>
+                <button id="button3" class="button" onclick="carousel('button3', 'img3')"></button>
+                <button id="button4" class="button" onclick="carousel('button4', 'img4')"></button>
+                <button id="button5" class="button" onclick="carousel('button5', 'img5')"></button>
+                <button id="button6" class="button" onclick="carousel('button6', 'img6')"></button>
+            </div>
+        </div>
+        <aside class="lateral-menu">
+            <ul>
+                <li>
+                    <a href="https://github.com/petrucioneves" target="_blank" >
+                        <img src="./src/img/github.svg" alt="link-github" class="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/petrucio-filho-neves-4821911b3" target="_blank">
+                        <img src="./src/img/linkedin-in.svg" alt="link do linkedin-in" class="icon">
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
